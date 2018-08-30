@@ -31,7 +31,6 @@ def start():
     # exe = r"D:\DR4AI20180515\WindowsNoEditor\ajdr.exe"
     # exe = r"F:/0725/WindowsNoEditor/ajdr.exe"
     exe = r"F:/ihomefnt/DreamRoom/Database/WindowsNoEditor/ajdr.exe"
-
     app.start(exe)
 
     # 线上版本需要开启
