@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51eb17b4-2093-46cd-a940-e134352ef083" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/run/run_layout_all_room.py" beforeDir="false" afterPath="$PROJECT_DIR$/run/run_layout_all_room.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -80,8 +80,8 @@
       <file leaf-file-name="run_layout_all_room.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/run/run_layout_all_room.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="32" column="68" selection-start-line="32" selection-start-column="68" selection-end-line="32" selection-end-column="68" />
+            <state relative-caret-position="144">
+              <caret line="21" column="24" lean-forward="true" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -155,21 +155,21 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/run/run_layout_all_room.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/lib/public.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/lib/pic.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/lib/excle.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/statistical/readMysql.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/statistical/to_excle.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/statistical/run.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/statistical/excle.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/run/run_statistical_data.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/aijia/match.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/aijia/test.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/aijia/readExcle.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/aijia/matching.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/aijia/appaj.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/statistical/readMysql.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/aijia/jsonData.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/statistical/to_excle.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/statistical/run.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/run/run_layout_all_room.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/lib/public.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/statistical/excle.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/lib/pic.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/lib/excle.py" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -467,7 +467,7 @@
       <window_info anchor="bottom" id="Version Control" order="12" visible="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Python Console" order="13" sideWeight="0.8470149" weight="0.34632036" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.28649238" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49909583" visible="true" weight="0.12899786" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49909583" visible="true" weight="0.13006397" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" weight="0.32980332" />
       <window_info anchor="right" id="SciView" order="4" visible="true" weight="0.0058635394" />
@@ -516,6 +516,27 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/run/run_layout_all_room.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="31" column="47" lean-forward="true" selection-start-line="31" selection-start-column="47" selection-end-line="31" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/pywinauto/findbestmatch.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9558">
+          <caret line="535" selection-start-line="535" selection-end-line="535" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/pic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1296">
+          <caret line="72" column="31" selection-start-line="72" selection-start-column="31" selection-end-line="72" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/run/run_layout_all_room.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4248">
@@ -726,9 +747,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/aijia/matching.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/aijia/test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
@@ -759,8 +777,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/run/run_layout_all_room.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="32" column="68" selection-start-line="32" selection-start-column="68" selection-end-line="32" selection-end-column="68" />
+        <state relative-caret-position="144">
+          <caret line="21" column="24" lean-forward="true" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
         </state>
       </provider>
     </entry>
