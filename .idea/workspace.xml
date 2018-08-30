@@ -1,0 +1,760 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="51eb17b4-2093-46cd-a940-e134352ef083" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/testing_6_8$excle_aj.coverage" NAME="excle_aj Coverage Results" MODIFIED="1529028901042" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aijia" />
+    <SUITE FILE_PATH="coverage/testing$public.coverage" NAME="public Coverage Results" MODIFIED="1528421288000" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib" />
+    <SUITE FILE_PATH="coverage/testing$excle_aj.coverage" NAME="excle_aj Coverage Results" MODIFIED="1528451153471" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aijia" />
+    <SUITE FILE_PATH="coverage/layoutRoom_7_5$mysql2excel.coverage" NAME="mysql2excel Coverage Results" MODIFIED="1530839702600" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.." />
+    <SUITE FILE_PATH="coverage/testing_6_28$mysql2excel.coverage" NAME="mysql2excel Coverage Results" MODIFIED="1530580758013" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.." />
+    <SUITE FILE_PATH="coverage/testing_6_28$readMysql.coverage" NAME="readMysql Coverage Results" MODIFIED="1530763002400" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mysql" />
+    <SUITE FILE_PATH="coverage/testing_7_5$run.coverage" NAME="run Coverage Results" MODIFIED="1530769042307" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mysql" />
+    <SUITE FILE_PATH="coverage/testing_6_8$match.coverage" NAME="match Coverage Results" MODIFIED="1530000145810" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aijia" />
+    <SUITE FILE_PATH="coverage/testing$appaj.coverage" NAME="appaj Coverage Results" MODIFIED="1528443133199" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aijia" />
+    <SUITE FILE_PATH="coverage/testing_6_28$sqlToExcle.coverage" NAME="sqlToExcle Coverage Results" MODIFIED="1530509946911" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mysqlDate" />
+    <SUITE FILE_PATH="coverage/testing_6_8$jsonDate.coverage" NAME="jsonDate Coverage Results" MODIFIED="1528705180032" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aijia" />
+    <SUITE FILE_PATH="coverage/layoutRoom_7_5$dna.coverage" NAME="查找每个dna之前的时间差 Coverage Results" MODIFIED="1530839752958" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop" />
+    <SUITE FILE_PATH="coverage/layoutRoom_7_5$to_excle.coverage" NAME="to_excle Coverage Results" MODIFIED="1530843845549" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/statistical" />
+    <SUITE FILE_PATH="coverage/layoutRoom_7_5$run_statistical_data.coverage" NAME="run_statistical_data Coverage Results" MODIFIED="1535420535718" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/run" />
+    <SUITE FILE_PATH="coverage/testing_6_8$readExcle.coverage" NAME="readExcle Coverage Results" MODIFIED="1529996865540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aijia" />
+    <SUITE FILE_PATH="coverage/testing_7_5$excle.coverage" NAME="excle Coverage Results" MODIFIED="1530766019111" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mysql" />
+    <SUITE FILE_PATH="coverage/testing_6_28$run_layout_all_room.coverage" NAME="run_layout_all_room Coverage Results" MODIFIED="1530679152422" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/run" />
+    <SUITE FILE_PATH="coverage/layoutRoom_7_5$run__1_.coverage" NAME="run (1) Coverage Results" MODIFIED="1530770199875" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/statistical" />
+    <SUITE FILE_PATH="coverage/testing_6_28$public.coverage" NAME="public Coverage Results" MODIFIED="1530172951535" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib" />
+    <SUITE FILE_PATH="coverage/testing_6_8$matching.coverage" NAME="matching Coverage Results" MODIFIED="1530011487565" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aijia" />
+    <SUITE FILE_PATH="coverage/testing$test.coverage" NAME="test Coverage Results" MODIFIED="1528461982706" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aijia" />
+    <SUITE FILE_PATH="coverage/testing_6_8$public.coverage" NAME="public Coverage Results" MODIFIED="1530163093243" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib" />
+    <SUITE FILE_PATH="coverage/testing_6_28$testing.coverage" NAME="testing Coverage Results" MODIFIED="1530248248100" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop" />
+    <SUITE FILE_PATH="coverage/testing_6_28$dna.coverage" NAME="查找每个dna之前的时间差 Coverage Results" MODIFIED="1530580935882" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop" />
+    <SUITE FILE_PATH="coverage/testing_6_28$sqlToExcle__1_.coverage" NAME="sqlToExcle (1) Coverage Results" MODIFIED="1530511298045" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mysql" />
+    <SUITE FILE_PATH="coverage/testing_6_28$.coverage" NAME="在日志里检查哪部分超时 Coverage Results" MODIFIED="1530266767371" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop" />
+    <SUITE FILE_PATH="coverage/layoutRoom_7_5$run_layout_all_room.coverage" NAME="run_layout_all_room Coverage Results" MODIFIED="1535592105645" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/run" />
+    <SUITE FILE_PATH="coverage/testing_6_28$to_excle.coverage" NAME="to_excle Coverage Results" MODIFIED="1530701700069" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mysql" />
+    <SUITE FILE_PATH="coverage/testing_6_8$run_layout_all_room.coverage" NAME="run_layout_all_room Coverage Results" MODIFIED="1530163362823" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/run" />
+    <SUITE FILE_PATH="coverage/testing$py_test_for_matching_test_match.coverage" NAME="py.test for matching.test_match Coverage Results" MODIFIED="1528441590699" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aijia" />
+    <SUITE FILE_PATH="coverage/testing_6_8$testing3.coverage" NAME="testing3 Coverage Results" MODIFIED="1529490497624" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Documents/WeChat Files/wujun_168/Files" />
+    <SUITE FILE_PATH="coverage/testing_6_8$jsonData.coverage" NAME="jsonData Coverage Results" MODIFIED="1529051308691" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aijia" />
+    <SUITE FILE_PATH="coverage/layoutRoom_7_5$run.coverage" NAME="run Coverage Results" MODIFIED="1535355801906" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/statistical" />
+    <SUITE FILE_PATH="coverage/testing$match.coverage" NAME="match Coverage Results" MODIFIED="1528443012328" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aijia" />
+    <SUITE FILE_PATH="coverage/testing_6_8$appaj.coverage" NAME="appaj Coverage Results" MODIFIED="1530163090616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aijia" />
+    <SUITE FILE_PATH="coverage/layoutRoom_7_5$readMysql.coverage" NAME="readMysql Coverage Results" MODIFIED="1530858688037" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/statistical" />
+    <SUITE FILE_PATH="coverage/layoutRoom_7_5$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1530841591929" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop" />
+    <SUITE FILE_PATH="coverage/testing_6_28$excle.coverage" NAME="excle Coverage Results" MODIFIED="1530760580708" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mysql" />
+    <SUITE FILE_PATH="coverage/testing$excle.coverage" NAME="excle Coverage Results" MODIFIED="1528449363385" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib" />
+    <SUITE FILE_PATH="coverage/testing_6_8$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1529562542527" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/Users/wujun/Anaconda3/Lib/site-packages/pymouse" />
+    <SUITE FILE_PATH="coverage/layoutRoom_7_5$test.coverage" NAME="test Coverage Results" MODIFIED="1535364354168" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aijia" />
+    <SUITE FILE_PATH="coverage/layoutRoom_7_5$excle__1_.coverage" NAME="excle (1) Coverage Results" MODIFIED="1530782081022" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/statistical" />
+    <SUITE FILE_PATH="coverage/testing_6_8$excle.coverage" NAME="excle Coverage Results" MODIFIED="1529052914183" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib" />
+    <SUITE FILE_PATH="coverage/testing_6_8$testing3_1_.coverage" NAME="testing3(1) Coverage Results" MODIFIED="1529580223757" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Documents/WeChat Files/wujun_168/Files" />
+    <SUITE FILE_PATH="coverage/testing_6_8$test.coverage" NAME="test Coverage Results" MODIFIED="1530071300687" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aijia" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="layoutRoom_7.5" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="run_layout_all_room.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/run/run_layout_all_room.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="224">
+              <caret line="249" column="26" lean-forward="true" selection-start-line="249" selection-start-column="26" selection-end-line="249" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="findbestmatch.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/pywinauto/findbestmatch.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2066">
+              <caret line="535" lean-forward="true" selection-start-line="535" selection-end-line="535" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pic.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/pic.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1296">
+              <caret line="72" column="31" selection-start-line="72" selection-start-column="31" selection-end-line="72" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>检查dnaId是否存在时，已经在打开dna方案的界</find>
+      <find>检查dnaId是否存在时，已经在打开dna方案的界面，请检查</find>
+      <find>dnaId不存在</find>
+      <find>打开DNA方案未完成，重新打开DNA方案</find>
+      <find>check_dnaSolutionId_exist</find>
+      <find>solutionId</find>
+      <find>开始时间：</find>
+      <find>dna_ids</find>
+      <find>create_sheet</find>
+      <find>全屋自动布局过程中有异常,dnsSolutionId</find>
+      <find>不存在</find>
+      <find>count</find>
+      <find>solutionIds剩下</find>
+      <find>log</find>
+      <find>except</find>
+      <find>全屋自动布局发生异常,异常信息：</find>
+      <find>存在方案退出确定按钮.....</find>
+      <find>9566</find>
+      <find>Excle</find>
+      <find>xoffset</find>
+      <find>enter_dna</find>
+      <find>DREAMROOM.jpg</find>
+      <find>exitprogramme</find>
+      <find>pic_enter_dnaid</find>
+      <find>VR隐藏商品</find>
+      <find>pic_openSolutionAfter</find>
+      <find>方案退出</find>
+      <find>输入框输入dnaId及点击搜索完成</find>
+      <find>picname</find>
+      <find>picturename</find>
+    </findStrings>
+    <dirStrings>
+      <dir>D:\python-workspace\layoutRoom_7.5\layoutRoom_7.5</dir>
+      <dir>D:\python-workspace\layoutRoom_7.5\layoutRoom_7.5\picsource</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/run/run_layout_all_room.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/lib/public.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/lib/pic.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/lib/excle.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/statistical/readMysql.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/statistical/to_excle.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/statistical/run.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/statistical/excle.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/run/run_statistical_data.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/aijia/match.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/aijia/test.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/aijia/readExcle.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/aijia/matching.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/aijia/appaj.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/aijia/jsonData.py" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/aijia/jsonDate.py" />
+        <option value="$PROJECT_DIR$/lib/jsonData.py" />
+        <option value="$PROJECT_DIR$/aijia/jsonData.py" />
+        <option value="$PROJECT_DIR$/lib/excle.py" />
+        <option value="$USER_HOME$/Documents/WeChat Files/wujun_168/Files/testing3.py" />
+        <option value="$USER_HOME$/Documents/WeChat Files/wujun_168/Files/testing3(1).py" />
+        <option value="$PROJECT_DIR$/aijia/excle_aj.py" />
+        <option value="$PROJECT_DIR$/aijia/readExcle.py" />
+        <option value="$PROJECT_DIR$/aijia/match.py" />
+        <option value="$PROJECT_DIR$/aijia/matching.py" />
+        <option value="$PROJECT_DIR$/aijia/test.py" />
+        <option value="$PROJECT_DIR$/lib/public.py" />
+        <option value="$PROJECT_DIR$/run/log.txt" />
+        <option value="$USER_HOME$/Desktop/testing.py" />
+        <option value="$USER_HOME$/Desktop/在日志里检查哪部分超时.py" />
+        <option value="$PROJECT_DIR$/log/log.txt" />
+        <option value="$PROJECT_DIR$/mysqlDate/sqlToExcle.py" />
+        <option value="$PROJECT_DIR$/mysqlDate/to_excle.py" />
+        <option value="$PROJECT_DIR$/mysql/sqlToExcle.py" />
+        <option value="$PROJECT_DIR$/mysql/mysql.py" />
+        <option value="$PROJECT_DIR$/log/2018_07_02.log" />
+        <option value="$PROJECT_DIR$/run/run_layout_all_room - 副本.py" />
+        <option value="$USER_HOME$/Desktop/查找每个dna之前的时间差.py" />
+        <option value="$PROJECT_DIR$/mysql/to_excle.py" />
+        <option value="$PROJECT_DIR$/mysql/readMysql.py" />
+        <option value="$PROJECT_DIR$/mysql/excle.py" />
+        <option value="$PROJECT_DIR$/mysql/run.py" />
+        <option value="$PROJECT_DIR$/log/2018_07_05.log" />
+        <option value="$PROJECT_DIR$/../mysql2excel.py" />
+        <option value="$USER_HOME$/Desktop/test.py" />
+        <option value="$PROJECT_DIR$/statistical/to_excle.py" />
+        <option value="$PROJECT_DIR$/statistical/readMysql.py" />
+        <option value="$PROJECT_DIR$/run/run_statistical_data.py" />
+        <option value="$PROJECT_DIR$/statistical/excle.py" />
+        <option value="$PROJECT_DIR$/statistical/run.py" />
+        <option value="$PROJECT_DIR$/statistical/test.py" />
+        <option value="$PROJECT_DIR$/lib/pic.py" />
+        <option value="$PROJECT_DIR$/aijia/appaj.py" />
+        <option value="$PROJECT_DIR$/run/run_layout_all_room.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="413" />
+    <option name="y" value="14" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="layoutRoom_7.5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="layoutRoom_7.5" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="layoutRoom_7.5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="layoutRoom_7.5" type="462c0819:PsiDirectoryNode" />
+              <item name="aijia" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="layoutRoom_7.5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="layoutRoom_7.5" type="462c0819:PsiDirectoryNode" />
+              <item name="run" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="layoutRoom_7.5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="layoutRoom_7.5" type="462c0819:PsiDirectoryNode" />
+              <item name="statistical" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="layoutRoom_7.5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../SimulateTest" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\python-workspace\layoutRoom_7.5\layoutRoom_7.5\picsource" />
+      <recent name="D:\python-workspace\layoutRoom_7.5\layoutRoom_7.5\picsource\draw" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.run_layout_all_room">
+    <configuration name="readMysql" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="testing" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/statistical" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/statistical/readMysql.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="run" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="testing" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/statistical" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/statistical/run.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="run_layout_all_room" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="testing" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/run" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run/run_layout_all_room.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="run_statistical_data" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="testing" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/run" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run/run_statistical_data.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python">
+      <module name="testing" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/aijia" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/aijia/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="to_excle" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="testing" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/statistical" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/statistical/to_excle.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.test" />
+      <item itemvalue="Python.run_statistical_data" />
+      <item itemvalue="Python.to_excle" />
+      <item itemvalue="Python.readMysql" />
+      <item itemvalue="Python.run" />
+      <item itemvalue="Python.run_layout_all_room" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.run_layout_all_room" />
+        <item itemvalue="Python.run_statistical_data" />
+        <item itemvalue="Python.run" />
+        <item itemvalue="Python.readMysql" />
+        <item itemvalue="Python.to_excle" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="51eb17b4-2093-46cd-a940-e134352ef083" name="Default" comment="" />
+      <created>1528420844059</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1528420844059</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="py_test_for_matching_test_match - 2018.06.08 at 15h 06m 49s.xml">
+      <configuration name="py.test for matching.test_match" configurationId="tests" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32897604" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.31716418" side_tool="true" weight="0.40151516" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="12" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Python Console" order="13" sideWeight="0.8470149" weight="0.34632036" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5271855" weight="0.3954496" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.28649238" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49909583" visible="true" weight="0.12793177" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32980332" />
+      <window_info anchor="right" id="SciView" order="4" visible="true" weight="0.0058635394" />
+      <window_info id="Structure" order="1" sideWeight="0.50090414" side_tool="true" weight="0.22334754" />
+      <window_info id="Favorites" order="2" sideWeight="0.50090414" side_tool="true" weight="0.22334754" />
+      <window_info anchor="bottom" x="0" y="288" width="1920" height="464" id="Debug" order="3" sideWeight="0.4728145" side_tool="true" weight="0.3961039" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection Results" order="14" visible="true" weight="0.3295082" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32792208" />
+      <window_info active="true" anchor="bottom" id="Concurrent Activities Diagram" order="8" visible="true" weight="1.0" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/statistical/readMysql.py</url>
+          <line>2</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/statistical/excle.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+      <option name="time" value="33" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/run/run_layout_all_room.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2952">
+          <caret line="164" selection-start-line="164" selection-end-line="164" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/public.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2718">
+          <caret line="151" column="4" selection-start-line="151" selection-start-column="4" selection-end-line="151" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aijia/appaj.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15030">
+          <caret line="846" column="36" selection-start-line="846" selection-start-column="36" selection-end-line="846" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/pic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1296">
+          <caret line="72" column="31" selection-start-line="72" selection-start-column="31" selection-end-line="72" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run/run_layout_all_room.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1854">
+          <caret line="116" column="38" selection-start-line="116" selection-start-column="38" selection-end-line="116" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/public.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1944">
+          <caret line="108" selection-start-line="108" selection-end-line="108" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/pic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aijia/appaj.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10584">
+          <caret line="599" column="36" lean-forward="true" selection-start-line="599" selection-start-column="36" selection-end-line="599" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/ctypes/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="289" selection-start-line="289" selection-end-line="289" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/1229051315/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="180" column="4" selection-start-line="180" selection-start-column="4" selection-end-line="180" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/typing.pyi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="336" column="8" selection-start-line="336" selection-start-column="8" selection-end-line="336" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/pywinauto/handleprops.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="100" selection-start-line="100" selection-end-line="100" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/pywinauto/win32_element_info.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="97" selection-start-line="97" selection-end-line="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/pywinauto/actionlogger.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="151" selection-start-line="151" selection-end-line="151" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/pywinauto/base_wrapper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="251" selection-start-line="251" selection-end-line="251" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/pywinauto/controls/hwndwrapper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="1502" selection-start-line="1502" selection-end-line="1502" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/aircv/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="134" selection-start-line="134" selection-end-line="134" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/pyautogui/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-240">
+          <caret line="600" column="4" selection-start-line="600" selection-start-column="4" selection-end-line="600" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/traceback.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="160" column="4" selection-start-line="160" selection-start-column="4" selection-end-line="160" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/pywinauto/application.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="337" selection-start-line="337" selection-end-line="337" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="328" selection-start-line="328" selection-end-line="328" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aijia/log.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="55" lean-forward="true" selection-start-line="3" selection-start-column="55" selection-end-line="3" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="1663" selection-start-line="1663" selection-end-line="1663" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/2018_08_29.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/pic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1296">
+          <caret line="72" column="31" selection-start-line="72" selection-start-column="31" selection-end-line="72" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aijia/match.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aijia/readExcle.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aijia/matching.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aijia/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="24" column="21" lean-forward="true" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aijia/appaj.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="32" column="34" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/public.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="151" column="4" selection-start-line="151" selection-start-column="4" selection-end-line="151" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/pywinauto/findbestmatch.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2066">
+          <caret line="535" lean-forward="true" selection-start-line="535" selection-end-line="535" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run/run_layout_all_room.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="249" column="26" lean-forward="true" selection-start-line="249" selection-start-column="26" selection-end-line="249" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

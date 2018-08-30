@@ -1,0 +1,110 @@
+2018-08-30 09:21:46 
+
+solutionIds：['17355', '17376']
+2018-08-30 09:21:46 dnaSolutionIds：['14194', '13536']
+2018-08-30 09:21:46 开始时间：2018-08-30 09:21:46
+2018-08-30 09:22:21 
+
+========================= solutionId:17355 =========================
+2018-08-30 09:22:21 >>>>>>>>步骤：点击产品方案
+2018-08-30 09:22:23 >>>>>>>>步骤：开始检查solutionId是否存在....
+2018-08-30 09:22:26 方案id存在了！！！！！！！！！！！
+2018-08-30 09:22:30 输入框输入dnaId及点击搜索完成
+2018-08-30 09:22:34 solutionId存在
+2018-08-30 09:22:34 >>>>>>>>步骤：下载或者打开产品方案....
+2018-08-30 09:22:36 首页已存在下载好的方案，开始打开方案....
+2018-08-30 09:22:37 打开方案未完成，还在打开中.....
+2018-08-30 09:22:39 打开方案未完成，还在打开中.....
+2018-08-30 09:22:40 打开方案未完成，还在打开中.....
+2018-08-30 09:22:42 打开方案未完成，还在打开中.....
+2018-08-30 09:22:43 打开方案未完成，还在打开中.....
+2018-08-30 09:22:44 打开方案未完成，还在打开中.....
+2018-08-30 09:22:46 打开方案完成.....
+2018-08-30 09:22:46 >>>>>>>>步骤：进入dna方案
+2018-08-30 09:22:48 >>>>>>>>步骤：点击DNA
+2018-08-30 09:22:49 点击DNA结束
+2018-08-30 09:22:49 >>>>>>>>步骤：下拉框选择方案Id
+2018-08-30 09:22:50 页面显示方案名称，开始选择方案id
+2018-08-30 09:22:51 
+------------------------------ solutionId:17355, dna_id:14194 ------------------------------
+2018-08-30 09:22:53 输入框输入dnaId及点击搜索完成
+2018-08-30 09:22:53 >>>>1
+2018-08-30 09:22:53 >>>>>>>>步骤：打开DNA方案...
+2018-08-30 09:22:53 >>>>2
+2018-08-30 09:22:53 存在DNA方案...
+2018-08-30 09:22:54 >>>>3
+2018-08-30 09:22:54 打开DNA方案完成！
+2018-08-30 09:22:55 >>>>>>>>步骤：清空房屋...
+2018-08-30 09:23:00 全屋自动布局过程中有异常,dnsSolutionId：14194，报错信息：Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\site-packages\pywinauto\application.py", line 246, in __resolve_control
+    criteria)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\site-packages\pywinauto\timings.py", line 453, in wait_until_passes
+    raise err
+pywinauto.timings.TimeoutError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:/python-workspace/layoutRoom_7.5/layoutRoom_7.5/run/run_layout_all_room.py", line 172, in layoutWholeRoom
+    appaj.delete_all_of_room1(myappwindow)
+  File "D:\python-workspace\layoutRoom_7.5\layoutRoom_7.5\aijia\appaj.py", line 984, in delete_all_of_room1
+    if check(appwindow, findpic=清空, timeout=2):
+  File "D:\python-workspace\layoutRoom_7.5\layoutRoom_7.5\aijia\appaj.py", line 292, in check
+    saveimage(appwindow, picturename)
+  File "D:\python-workspace\layoutRoom_7.5\layoutRoom_7.5\lib\public.py", line 140, in saveimage
+    print(appwindow.rectangle())  # 获取应用图形矩阵
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\site-packages\pywinauto\application.py", line 368, in __getattribute__
+    ctrls = self.__resolve_control(self.criteria)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\site-packages\pywinauto\application.py", line 249, in __resolve_control
+    raise e.original_exception
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\site-packages\pywinauto\timings.py", line 431, in wait_until_passes
+    func_val = func(*args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\site-packages\pywinauto\application.py", line 191, in __get_ctrl
+    dialog = self.backend.generic_wrapper_class(findwindows.find_element(**criteria[0]))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\site-packages\pywinauto\findwindows.py", line 84, in find_element
+    elements = find_elements(**kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\site-packages\pywinauto\findwindows.py", line 303, in find_elements
+    elements = findbestmatch.find_best_control_matches(best_match, wrapped_elems)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\site-packages\pywinauto\findbestmatch.py", line 533, in find_best_control_matches
+    raise MatchError(items = name_control_map.keys(), tofind = search_text)
+pywinauto.findbestmatch.MatchError: Could not find 'ihome' in 'dict_keys(['', 'UnrealWindow'])'
+
+2018-08-30 09:23:00 >>>>>>>>步骤：返回DNA首页.....
+2018-08-30 09:23:05 整个过程中有异常,报错信息:Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\site-packages\pywinauto\application.py", line 246, in __resolve_control
+    criteria)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\site-packages\pywinauto\timings.py", line 453, in wait_until_passes
+    raise err
+pywinauto.timings.TimeoutError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:/python-workspace/layoutRoom_7.5/layoutRoom_7.5/run/run_layout_all_room.py", line 181, in layoutWholeRoom
+    appaj.return_dna(myappwindow)
+  File "D:\python-workspace\layoutRoom_7.5\layoutRoom_7.5\aijia\appaj.py", line 882, in return_dna
+    if check(appwindow, findpic=pic_enter_dnaid, timeout=1):
+  File "D:\python-workspace\layoutRoom_7.5\layoutRoom_7.5\aijia\appaj.py", line 292, in check
+    saveimage(appwindow, picturename)
+  File "D:\python-workspace\layoutRoom_7.5\layoutRoom_7.5\lib\public.py", line 140, in saveimage
+    print(appwindow.rectangle())  # 获取应用图形矩阵
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\site-packages\pywinauto\application.py", line 368, in __getattribute__
+    ctrls = self.__resolve_control(self.criteria)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\site-packages\pywinauto\application.py", line 249, in __resolve_control
+    raise e.original_exception
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\site-packages\pywinauto\timings.py", line 431, in wait_until_passes
+    func_val = func(*args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\site-packages\pywinauto\application.py", line 191, in __get_ctrl
+    dialog = self.backend.generic_wrapper_class(findwindows.find_element(**criteria[0]))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\site-packages\pywinauto\findwindows.py", line 84, in find_element
+    elements = find_elements(**kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\site-packages\pywinauto\findwindows.py", line 303, in find_elements
+    elements = findbestmatch.find_best_control_matches(best_match, wrapped_elems)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\site-packages\pywinauto\findbestmatch.py", line 533, in find_best_control_matches
+    raise MatchError(items = name_control_map.keys(), tofind = search_text)
+pywinauto.findbestmatch.MatchError: Could not find 'ihome' in 'dict_keys(['', 'UnrealWindow'])'
+
+2018-08-30 09:23:05 dna_id长度是:1
+2018-08-30 09:23:05 SolutionId下剩下的dna_id：['14194', '13536']
+2018-08-30 09:23:05 solutionIds剩下：['17355', '17376']
+2018-08-30 09:23:16 已杀掉DR的进程！
