@@ -2,19 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51eb17b4-2093-46cd-a940-e134352ef083" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/aijia/appaj.py" beforeDir="false" afterPath="$PROJECT_DIR$/aijia/appaj.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/pic.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/pic.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/2018_08_30.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/2018_08_30.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/picsource/DNA.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/picsource/DNA.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/picsource/DNAsolution.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/picsource/DNAsolution.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/picsource/DNA全屋自动布局.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/picsource/DNA全屋自动布局.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/picsource/DNA返回DNA首页.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/picsource/DNA返回DNA首页.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/picsource/dna_programme.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/picsource/dna_programme.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/picsource/test.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/picsource/test.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/picsource/全屋自动布局.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/picsource/全屋自动布局.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/picsource/方案退出.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/picsource/方案退出1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/picsource/方案退出1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/picsource/方案退出确定.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/picsource/方案退出确定.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/picsource/未搜到结果.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/picsource/未搜到结果.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/run_layout_all_room.py" beforeDir="false" afterPath="$PROJECT_DIR$/run/run_layout_all_room.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -51,7 +42,7 @@
     <SUITE FILE_PATH="coverage/testing_6_28$dna.coverage" NAME="查找每个dna之前的时间差 Coverage Results" MODIFIED="1530580935882" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop" />
     <SUITE FILE_PATH="coverage/testing_6_28$sqlToExcle__1_.coverage" NAME="sqlToExcle (1) Coverage Results" MODIFIED="1530511298045" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mysql" />
     <SUITE FILE_PATH="coverage/testing_6_28$.coverage" NAME="在日志里检查哪部分超时 Coverage Results" MODIFIED="1530266767371" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop" />
-    <SUITE FILE_PATH="coverage/layoutRoom_7_5$run_layout_all_room.coverage" NAME="run_layout_all_room Coverage Results" MODIFIED="1535618204072" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/run" />
+    <SUITE FILE_PATH="coverage/layoutRoom_7_5$run_layout_all_room.coverage" NAME="run_layout_all_room Coverage Results" MODIFIED="1535622378265" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/run" />
     <SUITE FILE_PATH="coverage/testing_6_28$to_excle.coverage" NAME="to_excle Coverage Results" MODIFIED="1530701700069" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mysql" />
     <SUITE FILE_PATH="coverage/testing_6_8$run_layout_all_room.coverage" NAME="run_layout_all_room Coverage Results" MODIFIED="1530163362823" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/run" />
     <SUITE FILE_PATH="coverage/testing$py_test_for_matching_test_match.coverage" NAME="py.test for matching.test_match Coverage Results" MODIFIED="1528441590699" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aijia" />
@@ -93,8 +84,8 @@
       <file leaf-file-name="run_layout_all_room.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/run/run_layout_all_room.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
-              <caret line="188" column="33" selection-start-line="188" selection-start-column="33" selection-end-line="188" selection-end-column="33" />
+            <state relative-caret-position="414">
+              <caret line="167" selection-start-line="167" selection-end-line="167" />
               <folding>
                 <element signature="e#0#33#0" expanded="true" />
               </folding>
@@ -105,14 +96,19 @@
       <file leaf-file-name="appaj.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/aijia/appaj.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="91">
-              <caret line="1161" column="45" selection-start-line="1161" selection-start-column="45" selection-end-line="1161" selection-end-column="45" />
+            <state relative-caret-position="168">
+              <caret line="798" column="4" selection-start-line="798" selection-start-column="4" selection-end-line="798" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="清空完成.jpg" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/picsource/清空完成.jpg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file leaf-file-name="清空.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/picsource/清空.jpg">
           <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
@@ -136,27 +132,18 @@
           <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
-      <file leaf-file-name="加载全屋布局.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/picsource/加载全屋布局.jpg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file leaf-file-name="2018_08_30.log" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/log/2018_08_30.log">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-11">
-              <caret line="540" column="19" selection-start-line="540" selection-start-column="19" selection-end-line="540" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="pic.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/pic.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="64" column="29" selection-start-line="64" selection-start-column="29" selection-end-line="64" selection-end-column="29" />
+            <state relative-caret-position="168">
+              <caret line="76" selection-start-line="76" selection-end-line="76" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="search2.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/picsource/search2.jpg">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
     </leaf>
@@ -266,8 +253,8 @@
         <option value="$PROJECT_DIR$/statistical/run.py" />
         <option value="$PROJECT_DIR$/statistical/test.py" />
         <option value="$PROJECT_DIR$/log/2018_08_30.log" />
-        <option value="$PROJECT_DIR$/lib/pic.py" />
         <option value="$PROJECT_DIR$/aijia/appaj.py" />
+        <option value="$PROJECT_DIR$/lib/pic.py" />
         <option value="$PROJECT_DIR$/run/run_layout_all_room.py" />
       </list>
     </option>
@@ -281,7 +268,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="413" />
     <option name="y" value="14" />
     <option name="width" value="1400" />
@@ -529,14 +516,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32897604" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.31716418" side_tool="true" weight="0.40151516" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.6503198" visible="true" weight="0.3954496" />
-      <window_info anchor="bottom" id="Version Control" order="12" weight="0.32936078" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.8443497" visible="true" weight="0.3954496" />
+      <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.49946696" weight="0.32936078" />
       <window_info anchor="bottom" id="Python Console" order="13" sideWeight="0.8470149" weight="0.34632036" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.28649238" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49909583" visible="true" weight="0.18496802" />
@@ -544,7 +531,7 @@
       <window_info anchor="right" id="Database" order="3" weight="0.32980332" />
       <window_info anchor="right" id="SciView" order="4" visible="true" weight="0.0058635394" />
       <window_info id="Structure" order="1" sideWeight="0.50090414" side_tool="true" weight="0.22334754" />
-      <window_info anchor="bottom" x="0" y="288" width="1920" height="464" id="Debug" order="3" sideWeight="0.3496802" side_tool="true" visible="true" weight="0.3954496" />
+      <window_info anchor="bottom" x="0" y="288" width="1920" height="464" id="Debug" order="3" sideWeight="0.15565032" side_tool="true" visible="true" weight="0.3954496" />
       <window_info id="Favorites" order="2" sideWeight="0.50090414" side_tool="true" weight="0.22334754" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -624,20 +611,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/run/run_layout_all_room.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4248">
-          <caret line="249" column="26" lean-forward="true" selection-start-line="249" selection-start-column="26" selection-end-line="249" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/pywinauto/findbestmatch.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9558">
-          <caret line="535" lean-forward="true" selection-start-line="535" selection-end-line="535" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/pic.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1296">
@@ -899,25 +872,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/pic.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="64" column="29" selection-start-line="64" selection-start-column="29" selection-end-line="64" selection-end-column="29" />
+        <state relative-caret-position="168">
+          <caret line="76" selection-start-line="76" selection-end-line="76" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/picsource/search2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/picsource/清空.jpg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/picsource/清空完成.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/aijia/appaj.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91">
-          <caret line="1161" column="45" selection-start-line="1161" selection-start-column="45" selection-end-line="1161" selection-end-column="45" />
+        <state relative-caret-position="168">
+          <caret line="798" column="4" selection-start-line="798" selection-start-column="4" selection-end-line="798" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/run/run_layout_all_room.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="188" column="33" selection-start-line="188" selection-start-column="33" selection-end-line="188" selection-end-column="33" />
+        <state relative-caret-position="414">
+          <caret line="167" selection-start-line="167" selection-end-line="167" />
           <folding>
             <element signature="e#0#33#0" expanded="true" />
           </folding>

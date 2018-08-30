@@ -136,6 +136,7 @@ def layoutWholeRoom(solutionIds,dnaSolutionIds):
                 appaj.download_programme(myappwindow, pic_solutionName, pic_solutionId, solutionId)
 
                 appaj.enter_dna1(myappwindow)
+                time.sleep(1)
                 # 点击DNA
                 appaj.enter_dna(myappwindow)
                 # 下拉框选择方案id
@@ -182,11 +183,11 @@ def layoutWholeRoom(solutionIds,dnaSolutionIds):
                     # 鼠标向下移动
                     pyautogui.moveTo(the1coords[0], the1coords[1], duration=0.25)
                     # 删除屋内所有物品
-
+                    time.sleep(1)
                     appaj.delete_all_of_room1(myappwindow)
                     # 全屋自动布局
                     appaj.click_layoutWholeRoom(myappwindow)
-                    time.sleep(2)
+                    time.sleep(5)
                     saveQuery('L')
                     #再次清空
                     appaj.delete_all_of_room1(myappwindow)
@@ -250,8 +251,11 @@ if __name__ == "__main__":
     dnaSolutionIds = id["dnaSolutionId"]
     #记录solutionIds、dnaSolutionIds的值
     dnaSolutionIds = id["dnaSolutionId"]
-    solutionIds= ['17355','17376']
-    dnaSolutionIds = ['14194','13536']
+    # solutionIds= ['17355','17376']
+    # dnaSolutionIds = ['14194','13536']
+    solutionIds=  ['17210','17355','17062','16775','16637','16538','16521']
+    dnaSolutionIds = ['14194', '10080', '11003', '8372', '8268', '8230', '8061', '5493']
+
     dna_ids = copy.deepcopy(dnaSolutionIds)
 
     log("\n\nsolutionIds：{}".format(solutionIds))

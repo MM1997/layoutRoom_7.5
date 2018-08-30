@@ -55,6 +55,8 @@ pic_layouting = r"../picsource/pic_layouting.jpg"
 首页尾页_DNA方案 = r"../picsource/首页尾页_DNA方案1.jpg"
 关闭按钮 = r"../picsource/关闭按钮.jpg"
 未搜到结果 = r"../picsource/未搜到结果.jpg"
+
+
 全屋自动布局 = r"../picsource/全屋自动布局.jpg"
 全屋自动布局Z=r"../picsource/自动布局方案Z.jpg"
 全屋自动布局L=r"../picsource/自动布局方案L.jpg"
