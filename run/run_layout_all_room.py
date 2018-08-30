@@ -12,6 +12,7 @@ import signal
 from lib.public import log
 import copy
 import traceback
+import json
 
 def connect():
     app = application.Application()  # type:application.Application
@@ -19,7 +20,7 @@ def connect():
     setattr(matchimg, "confidence", 0.8)
     appwindow: BaseWrapper = findwindow(app, titlename=title_name1,timeout=3)
     time.sleep(1)
-    appwindow.Maximize()
+    appwindow.maximize()
     return appwindow
 
 
@@ -82,6 +83,21 @@ def killDR():
             except:
                 print("没有如此进程！！！")
     time.sleep(5)
+
+def saveQuery(a):
+    file = open(
+        'F:/ihomefnt/DreamRoom/Database/WindowsNoEditor/ajdr/Saved/AI/queryFullHouseModelPointsReturn.txt',
+        'rb')
+    js = file.read()
+    dicR = json.loads(js)
+    dicW = json.dumps(dicR)
+    roomId = dicR['data']['solutionId']  # 保存方案房间号
+    dnaId = dicR['data']['dnaSolutionId']  # 保存DNA
+    file_name1 = str(roomId) + '-' + str(dnaId) + '-' + a + '.txt'
+    f = open('C:/Users/Administrator/Desktop/dna/' + file_name1, 'w', encoding='UTF-8')
+    f.write(dicW)
+    f.close()
+    time.sleep(2)
 
 
 def layoutWholeRoom(solutionIds,dnaSolutionIds):
@@ -170,7 +186,16 @@ def layoutWholeRoom(solutionIds,dnaSolutionIds):
                     appaj.delete_all_of_room1(myappwindow)
                     # 全屋自动布局
                     appaj.click_layoutWholeRoom(myappwindow)
-                    # 点击 返回DNA首页
+                    time.sleep(2)
+                    saveQuery('L')
+                    #再次清空
+                    appaj.delete_all_of_room1(myappwindow)
+
+                    time.sleep(2)
+                    #布局方案Z
+                    appaj.click_layoutWholeRoomZ(myappwindow)
+                    time.sleep(2)
+                    saveQuery('Z')
                     appaj.return_dna(myappwindow)
 
                 except Exception as e:
@@ -180,7 +205,7 @@ def layoutWholeRoom(solutionIds,dnaSolutionIds):
                     continue
                 counts = counts + 1
                 log("总共执行了：{} 次".format(counts))
-            appaj.exitprogramme(myappwindow) #退回首页
+            appaj.exitprogramme1(myappwindow) #退回首页
 
     except Exception as e:
         log("整个过程中有异常,报错信息:{}".format(traceback.format_exc()))

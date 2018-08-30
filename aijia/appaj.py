@@ -452,7 +452,7 @@ def saveprogramme(appwindow):
 
 def exitprogramme(appwindow):
     log(">>>>>>>>步骤：方案退出.....")
-    exittimeout = 2
+    exittimeout =5
     # 容错处理，当退出按钮点击失败
     try:
         while exittimeout > 0:
@@ -483,6 +483,14 @@ def exitprogramme(appwindow):
                     break
     except:
         log("方案退出异常，报错信息:{}".format(traceback.format_exc()))
+
+
+def exitprogramme1(appwindow):
+    time.sleep(1)
+    clickpic(appwindow, findpic=方案退出, timeout=1)
+    the1coords = getpiccoords(appwindow, findpic=方案退出确定, xoffset=50, yoffset=220)
+    pyautogui.moveTo(the1coords[0], the1coords[1], duration=0.25)
+    clickpic(appwindow, findpic=方案退出确定, timeout=1)
 
 def exit(appwindow):
     # the1coords = getpiccoords(appwindow, findpic=方案退出确定, xoffset=50, yoffset=220, timeout=2)
@@ -993,11 +1001,27 @@ def delete_all_of_room1(appwindow):
         clickpic(appwindow, findpic=清空确定, timeout=1)
         time.sleep(1)
 
-
-
+    # 检查清空是否完成
+    try:
+        for i in range(40):
+            if check(appwindow, findpic=清空完成, timeout=1, confidence=0.8):
+                log("清空完成")
+                savePic(appwindow, "清空完成")
+                break
+            else:
+                log("全屋布局在加载中。。。")
+                time.sleep(1)
+                if i == 30:
+                    log("清空时间过长，已取消加载。。。")
+                    savePic(appwindow, "清空时间过长，已取消")
+                    time.sleep(1)
+                    break
+    except Exception as e:
+        log("清空发生异常,异常信息：{}".format(traceback.format_exc()))
+        time.sleep(3)
 
     # log(">>>>>>>>步骤：清除信息.....")
-    # exittimeout = 1
+    # exittimeout = 20
     # # 容错处理，当退出按钮点击失败
     # try:
     #     while exittimeout > 0:
@@ -1058,9 +1082,114 @@ def loop_mouse_click(appwindow):
 def click_layoutWholeRoom(appwindow):
     log(">>>>>>>>步骤：全屋自动布局.....")
     try:
+        # 检查是否为L布局方案
+        if not check(appwindow, findpic=全屋自动布局L, timeout=1):
+            clickpic(appwindow, findpic=全屋自动布局L2, xoffset=0, yoffset=0, timeout=10, checkfreq=1)
+            for i in range(20):
+                if check(appwindow, findpic=全屋自动布局, timeout=1):
+                    log("存在全屋自动布局按钮.....")
+                    #获取全屋自动布局按钮的坐标
+                    coords = getpiccoords(appwindow, findpic=全屋自动布局, xoffset=0, yoffset=-6)
+                    #鼠标移动到全屋自动布局按钮上
+                    pyautogui.moveTo(coords[0], coords[1], duration=0.25)
+                    # appwindow.click_input(coords=(coords[0], coords[1]))
+                    #点击按钮
+                    win32api.mouse_event(win32con.MOUSEEVENTF_LEFTDOWN, 0, 0, 0, 0)  # 点击鼠标
+                    time.sleep(0.3)
+                    win32api.mouse_event(win32con.MOUSEEVENTF_LEFTUP, 0, 0, 0, 0)  # 抬起鼠标
+                    time.sleep(8)
+                    break
+                else:
+                    log("没有全屋自动布局按钮，请检查.....")
+                    savePic(appwindow,"没有全屋自动布局按钮")
+                    #打开DNA方案
+                    # openSoltion_dna(appwindow)
+                    time.sleep(1)
+
+            # 检查全屋布局是否加载完成
+            for i in range(40):
+                if check(appwindow, findpic=布局完成, timeout=1, confidence=0.95):
+                    log("正在全屋布局中.....")
+                    for j in range(30):
+                        if check(appwindow, findpic=布局完成2, timeout=1, confidence=0.95):
+                            log("全屋自动布局完成")
+                            savePic(appwindow,"全屋自动布局完成")
+                            time.sleep(5)
+                            break
+                        else:
+                            log("正在全屋布局中，等待中.....")
+                            time.sleep(1)
+                    break
+                else:
+                    log("全屋布局在加载中。。。")
+                    time.sleep(1)
+                    if i == 30:
+                        log("全屋布局加载时间过长，已取消加载。。。")
+                        savePic(appwindow,"全屋布局加载时间过长，已取消加载")
+                        pyautogui.keyDown('esc')
+                        time.sleep(0.5)
+                        pyautogui.keyUp('esc')
+                        time.sleep(1)
+                        break
+        else:
+            for i in range(20):
+                if check(appwindow, findpic=全屋自动布局, timeout=1):
+                    log("存在全屋自动布局按钮.....")
+                    #获取全屋自动布局按钮的坐标
+                    coords = getpiccoords(appwindow, findpic=全屋自动布局, xoffset=0, yoffset=-6)
+                    #鼠标移动到全屋自动布局按钮上
+                    pyautogui.moveTo(coords[0], coords[1], duration=0.25)
+                    # appwindow.click_input(coords=(coords[0], coords[1]))
+                    #点击按钮
+                    win32api.mouse_event(win32con.MOUSEEVENTF_LEFTDOWN, 0, 0, 0, 0)  # 点击鼠标
+                    time.sleep(0.3)
+                    win32api.mouse_event(win32con.MOUSEEVENTF_LEFTUP, 0, 0, 0, 0)  # 抬起鼠标
+                    time.sleep(8)
+                    break
+                else:
+                    log("没有全屋自动布局按钮，请检查.....")
+                    savePic(appwindow,"没有全屋自动布局按钮")
+                    #打开DNA方案
+                    # openSoltion_dna(appwindow)
+                    time.sleep(1)
+
+            # 检查全屋布局是否加载完成
+            # for i in range(40):
+            #     if check(appwindow, findpic=加载全屋布局, timeout=1, confidence=0.5):
+            #         log("正在全屋布局中.....")
+            #         for j in range(30):
+            #             if not check(appwindow, findpic=加载全屋布局, timeout=1, confidence=0.5):
+            #                 log("全屋自动布局完成")
+            #                 savePic(appwindow,"全屋自动布局完成")
+            #                 break
+            #             else:
+            #                 log("正在全屋布局中，等待中.....")
+            #                 time.sleep(1)
+            #         break
+            #     else:
+            #         log("全屋布局在加载中。。。")
+            #         time.sleep(1)
+            #         if i == 30:
+            #             log("全屋布局加载时间过长，已取消加载。。。")
+            #             savePic(appwindow,"全屋布局加载时间过长，已取消加载")
+            #             pyautogui.keyDown('esc')
+            #             time.sleep(0.5)
+            #             pyautogui.keyUp('esc')
+            #             time.sleep(1)
+            #             break
+
+    except Exception as e:
+        log("全屋自动布局发生异常,异常信息：{}".format(traceback.format_exc()))
+        time.sleep(3)
+
+def click_layoutWholeRoomZ(appwindow):
+    log(">>>>>>>>步骤：全屋自动布局Z.....")
+    try:
         for i in range(20):
-            if check(appwindow, findpic=全屋自动布局, timeout=1):
-                log("存在全屋自动布局按钮.....")
+            if check(appwindow, findpic=全屋自动布局Z, timeout=1):
+                log("存在全屋自动布局Z按钮.....")
+                clickpic(appwindow, findpic=全屋自动布局Z, xoffset=0, yoffset=0, timeout=10, checkfreq=1)
+                time.sleep(1)
                 #获取全屋自动布局按钮的坐标
                 coords = getpiccoords(appwindow, findpic=全屋自动布局, xoffset=0, yoffset=-6)
                 #鼠标移动到全屋自动布局按钮上
@@ -1070,41 +1199,42 @@ def click_layoutWholeRoom(appwindow):
                 win32api.mouse_event(win32con.MOUSEEVENTF_LEFTDOWN, 0, 0, 0, 0)  # 点击鼠标
                 time.sleep(0.3)
                 win32api.mouse_event(win32con.MOUSEEVENTF_LEFTUP, 0, 0, 0, 0)  # 抬起鼠标
-                time.sleep(10)
+                time.sleep(8)
                 break
             else:
-                log("没有全屋自动布局按钮，请检查.....")
-                savePic(appwindow,"没有全屋自动布局按钮")
+                log("没有全屋自动布局Z按钮，请检查.....")
+                savePic(appwindow,"没有全屋自动布局按钮Z")
                 #打开DNA方案
                 # openSoltion_dna(appwindow)
                 time.sleep(1)
 
-        #检查全屋布局是否加载完成
-        # for i in range(40):
-        #     if check(appwindow, findpic=加载全屋布局, timeout=1, confidence=0.5):
-        #         log("正在全屋布局中.....")
-        #         for j in range(30):
-        #             if not check(appwindow, findpic=加载全屋布局, timeout=1, confidence=0.5):
-        #                 log("全屋自动布局完成")
-        #                 savePic(appwindow,"全屋自动布局完成")
-        #                 break
-        #             else:
-        #                 log("正在全屋布局中，等待中.....")
-        #                 time.sleep(1)
-        #         break
-        #     else:
-        #         log("全屋布局在加载中。。。")
-        #         time.sleep(1)
-        #         if i == 30:
-        #             log("全屋布局加载时间过长，已取消加载。。。")
-        #             savePic(appwindow,"全屋布局加载时间过长，已取消加载")
-        #             pyautogui.keyDown('esc')
-        #             time.sleep(0.5)
-        #             pyautogui.keyUp('esc')
-        #             time.sleep(1)
-        #             break
+        # 检查全屋布局是否加载完成
+        for i in range(40):
+            if check(appwindow, findpic=布局完成, timeout=1, confidence=0.95):
+                log("正在全屋布局Z中.....")
+                for j in range(30):
+                    if check(appwindow, findpic=布局完成2, timeout=1, confidence=0.95):
+                        log("全屋自动布局Z完成")
+                        savePic(appwindow,"全屋自动布局Z完成")
+                        time.sleep(5)
+                        break
+                    else:
+                        log("正在全屋布局Z中，等待中.....")
+                        time.sleep(1)
+                break
+            else:
+                log("全屋布局Z在加载中。。。")
+                time.sleep(1)
+                if i == 30:
+                    log("全屋布局Z加载时间过长，已取消加载。。。")
+                    savePic(appwindow,"全屋布局Z加载时间过长，已取消加载")
+                    pyautogui.keyDown('esc')
+                    time.sleep(0.5)
+                    pyautogui.keyUp('esc')
+                    time.sleep(1)
+                    break
     except Exception as e:
-        log("全屋自动布局发生异常,异常信息：{}".format(traceback.format_exc()))
+        log("全屋自动布局Z发生异常,异常信息：{}".format(traceback.format_exc()))
         time.sleep(3)
 
 
