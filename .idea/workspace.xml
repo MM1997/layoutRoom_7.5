@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51eb17b4-2093-46cd-a940-e134352ef083" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/lib/pic.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/pic.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/2018_08_30.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/2018_08_30.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/picsource/test.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/picsource/test.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/picsource/未搜到结果.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/picsource/未搜到结果.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/run_layout_all_room.py" beforeDir="false" afterPath="$PROJECT_DIR$/run/run_layout_all_room.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -81,11 +77,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="run_layout_all_room.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="run_layout_all_room.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/run/run_layout_all_room.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="167" selection-start-line="167" selection-end-line="167" />
+            <state relative-caret-position="2736">
+              <caret line="166" selection-start-line="166" selection-end-line="166" />
               <folding>
                 <element signature="e#0#33#0" expanded="true" />
               </folding>
@@ -93,57 +89,31 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="2018_08_30.log" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/log/2018_08_30.log">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="423">
+              <caret line="3460" column="33" selection-start-line="3460" selection-start-column="33" selection-end-line="3460" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="appaj.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/aijia/appaj.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
+            <state relative-caret-position="14166">
               <caret line="798" column="4" selection-start-line="798" selection-start-column="4" selection-end-line="798" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="清空完成.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/picsource/清空完成.jpg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file leaf-file-name="清空.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/picsource/清空.jpg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file leaf-file-name="布局完成2.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/picsource/布局完成2.jpg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file leaf-file-name="pic_layouting.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/picsource/pic_layouting.jpg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file leaf-file-name="pic_flag_layoutRoom.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/picsource/pic_flag_layoutRoom.jpg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file leaf-file-name="自动布局方案Z.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/picsource/自动布局方案Z.jpg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
       <file leaf-file-name="pic.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/pic.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
+            <state relative-caret-position="1368">
               <caret line="76" selection-start-line="76" selection-end-line="76" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="search2.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/picsource/search2.jpg">
-          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
     </leaf>
@@ -268,7 +238,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="413" />
     <option name="y" value="14" />
     <option name="width" value="1400" />
@@ -283,41 +253,6 @@
       <pane id="ProjectPane">
         <subPane>
           <expand>
-            <path>
-              <item name="layoutRoom_7.5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="layoutRoom_7.5" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="layoutRoom_7.5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="layoutRoom_7.5" type="462c0819:PsiDirectoryNode" />
-              <item name="aijia" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="layoutRoom_7.5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="layoutRoom_7.5" type="462c0819:PsiDirectoryNode" />
-              <item name="log" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="layoutRoom_7.5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="layoutRoom_7.5" type="462c0819:PsiDirectoryNode" />
-              <item name="log" type="462c0819:PsiDirectoryNode" />
-              <item name="logPic" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="layoutRoom_7.5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="layoutRoom_7.5" type="462c0819:PsiDirectoryNode" />
-              <item name="picsource" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="layoutRoom_7.5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="layoutRoom_7.5" type="462c0819:PsiDirectoryNode" />
-              <item name="run" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="layoutRoom_7.5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="layoutRoom_7.5" type="462c0819:PsiDirectoryNode" />
-              <item name="statistical" type="462c0819:PsiDirectoryNode" />
-            </path>
             <path>
               <item name="layoutRoom_7.5" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
@@ -516,22 +451,21 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32897604" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.31716418" side_tool="true" weight="0.40151516" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.8443497" visible="true" weight="0.3954496" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8443497" weight="0.3954496" />
       <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.49946696" weight="0.32936078" />
       <window_info anchor="bottom" id="Python Console" order="13" sideWeight="0.8470149" weight="0.34632036" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.28649238" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49909583" visible="true" weight="0.18496802" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49909583" visible="true" weight="0.18710022" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" weight="0.32980332" />
       <window_info anchor="right" id="SciView" order="4" visible="true" weight="0.0058635394" />
       <window_info id="Structure" order="1" sideWeight="0.50090414" side_tool="true" weight="0.22334754" />
-      <window_info anchor="bottom" x="0" y="288" width="1920" height="464" id="Debug" order="3" sideWeight="0.15565032" side_tool="true" visible="true" weight="0.3954496" />
+      <window_info anchor="bottom" x="0" y="288" width="1920" height="464" id="Debug" order="3" sideWeight="0.15565032" side_tool="true" weight="0.3954496" />
       <window_info id="Favorites" order="2" sideWeight="0.50090414" side_tool="true" weight="0.22334754" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -611,6 +545,37 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/run/run_layout_all_room.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2736">
+          <caret line="166" lean-forward="true" selection-start-line="166" selection-end-line="166" />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aijia/appaj.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14166">
+          <caret line="798" column="4" selection-start-line="798" selection-start-column="4" selection-end-line="798" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/pic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1368">
+          <caret line="76" selection-start-line="76" selection-end-line="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/2018_08_30.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62280">
+          <caret line="3460" column="33" lean-forward="true" selection-start-line="3460" selection-start-column="33" selection-end-line="3460" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lib/pic.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1296">
@@ -807,39 +772,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/log/logPic/2018_08_30/没有全屋自动布局按钮-2018-08-30 09-58-19.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/picsource/pic_solutionName.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/pywinauto/findbestmatch.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="469">
           <caret line="535" selection-start-line="535" selection-end-line="535" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/picsource/全屋自动布局.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/picsource/方案退出确定.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/picsource/DNA返回DNA首页.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/picsource/自动布局方案L2.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/picsource/自动布局方案L.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/picsource/DNA.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/picsource/DNA打开方案.jpg">
-      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/pyautogui/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -848,58 +786,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/picsource/加载全屋布局.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/log/2018_08_30.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-11">
-          <caret line="540" column="19" selection-start-line="540" selection-start-column="19" selection-end-line="540" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/picsource/自动布局方案Z.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/picsource/pic_flag_layoutRoom.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/picsource/pic_layouting.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/picsource/布局完成2.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/pic.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
+        <state relative-caret-position="1368">
           <caret line="76" selection-start-line="76" selection-end-line="76" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/picsource/search2.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/picsource/清空.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/picsource/清空完成.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/aijia/appaj.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
+        <state relative-caret-position="14166">
           <caret line="798" column="4" selection-start-line="798" selection-start-column="4" selection-end-line="798" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/run/run_layout_all_room.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="167" selection-start-line="167" selection-end-line="167" />
+        <state relative-caret-position="2736">
+          <caret line="166" selection-start-line="166" selection-end-line="166" />
           <folding>
             <element signature="e#0#33#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/2018_08_30.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="3460" column="33" selection-start-line="3460" selection-start-column="33" selection-end-line="3460" selection-end-column="33" />
         </state>
       </provider>
     </entry>
